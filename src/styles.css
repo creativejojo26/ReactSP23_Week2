@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: coral;
+  margin: 3px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffd9d9;
+}
